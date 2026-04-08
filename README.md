@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://files.catbox.moe/045t3c.jpeg" width="620" alt="Neelegirly Downloader Hero" />
+
 # ✨ @neelegirly/downloader
 
 ### Soft-glow Media-Downloader für TikTok, Instagram, YouTube, Spotify, SoundCloud, Threads & mehr
@@ -10,7 +12,7 @@
 [![Scope](https://img.shields.io/badge/Scope-@neelegirly-f9a8d4?style=for-the-badge)](https://www.npmjs.com/package/@neelegirly/downloader)
 [![Maintained by Neelegirly](https://img.shields.io/badge/Maintained%20by-Neelegirly-f5bde6?style=for-the-badge)](https://github.com/neelegirly)
 
-**Release `0.1.64`** · Promise-basiert · leichtgewichtig · botfreundlich
+**Release `0.1.65`** · Hero image live · Promise-basiert · leichtgewichtig · botfreundlich
 
 </div>
 
@@ -18,23 +20,23 @@
 
 ## 💖 Warum dieses Paket?
 
-`@neelegirly/downloader` ist ein kleiner, praktischer Wrapper für häufig genutzte Download- und Search-Endpunkte.
-Er eignet sich perfekt für Bots, Utilities und kleine Automationen, wenn du Medien oder Suchergebnisse schnell in einer einheitlichen API haben willst.
+`@neelegirly/downloader` bündelt kleine, direkte Download- und Search-Helper in einer API, die sich super für Bots, Utilities und Automationen eignet.
+Wenn du Links schnell auflösen oder Medien-Infos in Kommandos weiterreichen willst, ist das hier die süße kleine Abkürzung.
 
-### Highlights
+### 🌈 Glow-Highlights
 
-- 🌸 Ein Paket für viele Plattformen
-- ⚡ Promise-basierte, einfache Nutzung
-- 🧁 Ideal für Bot-Workflows wie Onimai & Co.
-- 🎧 Enthält Download- **und** Search-Helper
-- 🫧 Fehler liefern ein konsistentes Antwortobjekt statt harter Crashes
+- 📸 Hero-Bild jetzt sichtbar auf GitHub **und** npm
+- ⚡ Promise-basierte Einzeiler für Bot-Commands
+- 🎧 Download- und Search-Endpoints in einem Paket
+- 🫧 Konsistente Fallback-Antworten statt harter Crashes
+- 🧁 Perfekt für Onimai, Darkbot und andere Media-Workflows
 
 ---
 
 ## 📦 Installation
 
 ```bash
-npm install @neelegirly/downloader@0.1.64 --save-exact
+npm install @neelegirly/downloader@0.1.65 --save-exact
 ```
 
 ---
@@ -118,25 +120,28 @@ Wenn ein Upstream-Endpunkt fehlschlägt, wird ein Objekt wie dieses zurückgegeb
 }
 ```
 
-Das macht Retry-Logik oder Fallbacks in Bots deutlich entspannter.
+Das macht Retry-Logik, Fallbacks und Logging in Bots deutlich entspannter.
 
 ---
 
-## 📝 Release Notes `0.1.64`
+## 📝 Release Notes `0.1.65`
 
-- README komplett neu gestaltet
-- Branding auf `@neelegirly/downloader` bereinigt
-- Paket-Metadaten für den frischen Release aufgeräumt
-- bereit für den neuen Reinstall-Flow in Onimai und Darkbot
+- Hero-Bild im README ergänzt
+- README visuell stärker im Glow-up-Stil überarbeitet
+- npm- und GitHub-Präsentation auf denselben Look gebracht
+- bereit für frische Reinstalls in Onimai und Darkbot
 
 ---
 
 ## 💫 Support
 
 - npm: [`@neelegirly/downloader`](https://www.npmjs.com/package/@neelegirly/downloader)
-- GitHub-Profil: [`@neelegirly`](https://github.com/neelegirly)
+- GitHub: [`neelegirly/downloader`](https://github.com/neelegirly/downloader)
+- Issues: [`neelegirly/downloader/issues`](https://github.com/neelegirly/downloader/issues)
 
 <div align="center">
+
+<img src="https://files.catbox.moe/045t3c.jpeg" width="260" alt="Neelegirly Downloader Accent" />
 
 **Stay cute, ship fast, download smarter. 🌸**
 

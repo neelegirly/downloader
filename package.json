@@ -1,6 +1,6 @@
 {
   "name": "@neelegirly/downloader",
-  "version": "0.1.64",
+  "version": "0.1.65",
   "description": "Cute multi-platform media downloader for TikTok, Instagram, YouTube, Spotify, SoundCloud, Threads and more.",
   "main": "src/index.js",
   "files": [
