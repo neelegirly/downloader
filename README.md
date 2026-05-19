@@ -1,3 +1,57 @@
+<pre align="center">
+💖 Neelegirly Ecosystem Clean Stability Update 💖
+4 Packages · 1 App · PM2 only runs the app
+</pre>
+
+# 💫 @neelegirly/downloader
+
+Optional media downloader toolkit for bot apps.
+
+## Clean Architecture
+
+```text
+@neelegirly/libsignal
+        ↓
+@neelegirly/baileys
+        ↓
+@neelegirly/wa-api
+        ↓
+App (PM2 managed)
+        ↓
+@neelegirly/downloader (optional utility)
+```
+
+## Official Package Role
+
+- Optional utility package
+- Not part of session lifecycle
+- Works alongside the app
+
+## PM2 Rule
+
+> WA-API handles sessions internally. PM2 only runs the app.
+
+Start your app with PM2 like this:
+
+```bash
+pm2 start index.js --name bot
+```
+
+Do not start one PM2 process per session. Sessions belong inside the app through `@neelegirly/wa-api`.
+
+## Install
+
+```bash
+npm install @neelegirly/downloader
+```
+
+## Clean Stability Release
+
+This release clarifies the ecosystem structure and removes workspace/core confusion from the documentation.
+
+
+---
+
 <div align="center">
 
 <img src="https://files.catbox.moe/045t3c.jpeg" width="620" alt="Neelegirly Downloader Hero" />
